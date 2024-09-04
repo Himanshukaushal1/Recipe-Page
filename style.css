@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Young Serif", serif;
+    color: hsl(30, 10%, 34%);
+}
+
+body{
+    background-color:hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.outer-box{
+    width: 40vw;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 30px;
+   
+}
+
+.container{
+    border: 2px soid red;
+    border-radius: 15px;
+   padding: 100px;
+}
+
+ul,ol{
+    padding: 0 25px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.value{
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+.headings h3{
+    margin-bottom: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+.poster{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+header{
+    margin: 25px 0px;
+}
+
+.main-heading{
+    font-size: 2rem;
+    font-weight: 900;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 20px;
+}
+
+header .prep-time{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.prep-time h4{
+    color: hsl(332, 51%, 32%);
+    font-weight: 800;
+}
+
+.prep-time li{
+    padding-top: 10px;
+    color:hsl(332, 51%, 32%) ;
+    font-size: .8rem;
+}
+
+.ingredients{
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+}
+.ingredients li{
+    padding-top: 10px;
+    color:hsl(332, 51%, 32%) ;
+}
+
+.ingredients ol{
+    margin-bottom: 20px;
+}
+
+/* Instructions */
+
+.instructions{
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+}
+
+.instructions li{
+    padding-top: 10px;
+    color:hsl(332, 51%, 32%) ;
+}
+
+/* Nutrition */
+
+.nutrition p{
+    margin-bottom: 15px;
+}
+
+.nutrition table{
+    width: 100%;
+    float: left;
+}
+
+.nutrition td{
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;  
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+}
+
+.nutrition .no-border{
+    border: none;
+}
+
+
+
+ 
+
+
+
